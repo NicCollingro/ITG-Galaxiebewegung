@@ -1,0 +1,2 @@
+# This file is used internally by FFMPEG.
+file 'file:/home/niccollingro/Documents/ITG/ITG-Galaxiebewegung/Code/media/videos/Animation/1080p60/partial_movie_files/GalaxyAnimation/3686252790_2417330461_4023803253.mp4'

@@ -1,0 +1,2 @@
+# Was sind galaxien?
+Galaxien sind durch Gravitation gebundene große Ansammlungen von Sternen, Planetensystemen, Gasnebel, Staubwolken und sonstigen astronomischen Objekten mit einer Gesamtmasse von typischweise 10^9 bis 10^13 Sonnenmassen. 
