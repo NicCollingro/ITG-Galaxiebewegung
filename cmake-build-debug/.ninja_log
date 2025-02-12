@@ -1,0 +1,10 @@
+# ninja log v6
+808	924	1739366395257192353	ITG_Galaxiebewegung	d1440e4f63c83efd
+7	808	1739366394455906320	CMakeFiles/ITG_Galaxiebewegung.dir/Code/Simulation.cpp.o	8a4991591b45ce4b
+8	194	1739366778034197214	build.ninja	e4e8ce6efb7a08d9
+3	1115	1739366778055802615	CMakeFiles/ITG_Galaxiebewegung.dir/Code/SimulationCreateStartValues.cpp.o	842672eebaf91efa
+1115	1238	1739366779168180284	ITG_Galaxiebewegung	2270a7a1b38af581
+12	784	1739367728982154795	CMakeFiles/ITG_Galaxiebewegung.dir/Code/SimulationCreateStartValues.cpp.o	842672eebaf91efa
+785	895	1739367729754876574	ITG_Galaxiebewegung	2270a7a1b38af581
+6	778	1739367844792744820	CMakeFiles/ITG_Galaxiebewegung.dir/Code/SimulationCreateStartValues.cpp.o	842672eebaf91efa
+778	884	1739367845565247670	ITG_Galaxiebewegung	2270a7a1b38af581
