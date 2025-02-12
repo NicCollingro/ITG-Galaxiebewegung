@@ -24,6 +24,7 @@ ax.set_facecolor('black')
 
 ax.scatter(coordinateX, coordinateY, color='white', s=1)
 
+
 ax.set_xticks([])  # Entfernt x-Achsen-Ticks
 ax.set_yticks([])  # Entfernt y-Achsen-Ticks
 ax.spines['top'].set_visible(False)

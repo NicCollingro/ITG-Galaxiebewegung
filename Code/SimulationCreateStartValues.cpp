@@ -10,7 +10,7 @@ public:
     float radius;
     float degree;
     float velocityRadius;
-    float velocity;
+    float velocityDegree;
 };
 
 
@@ -24,7 +24,8 @@ int main() {
     Coordinate coordinates[entries];
     std::random_device rd;
     std::mt19937 gen(rd());
-    std::uniform_real_distribution<float> distrib1(0, radiusOfGalaxy);
+    //std::uniform_real_distribution<float> distrib1(0, radiusOfGalaxy);
+    std::normal_distribution<> distrib1(radiusOfGalaxy/2, 25000.0);
     std::uniform_real_distribution<float> distrib2(0, 2*M_PI);
     std::uniform_real_distribution<float> distrib3(minMass, maxMass);
     for (int i = 0; i < entries; i++) {
@@ -36,7 +37,7 @@ int main() {
         }
         float velocity = std::sqrt((gravConst * centerMass) / coordinates[i].radius);
         coordinates[i].velocityRadius = 0;
-        coordinates[i].velocityY = velocity * std::cos(coordinates[i].degree);
+        coordinates[i].velocityDegree = std::sqrt((gravConst * centerMass) / pow(coordinates[i].radius, 3));
     }
 
     std::ofstream file("Startwerte.txt", std::ios::trunc);
@@ -44,7 +45,7 @@ int main() {
         std::cout << "Error creating file" << std::endl;
     }
     for (int i = 0; i < entries; i++) {
-        file << coordinates[i].radius << "\t" << coordinates[i].degree << "\t" << coordinates[i].velocityX << "\t" << coordinates[i].velocityY << "t" << coordinates[i].mass <<"\n";
+        file << coordinates[i].radius << "\t" << coordinates[i].degree << "\t" << coordinates[i].velocityRadius << "\t" << coordinates[i].velocityDegree << "t" << coordinates[i].mass <<"\n";
     }
 
     return 0;
