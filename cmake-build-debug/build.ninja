@@ -55,6 +55,12 @@ build CMakeFiles/ITG_Galaxiebewegung.dir/Code/SimulationCreateStartValues.cpp.o:
   OBJECT_DIR = CMakeFiles/ITG_Galaxiebewegung.dir
   OBJECT_FILE_DIR = CMakeFiles/ITG_Galaxiebewegung.dir/Code
 
+build CMakeFiles/ITG_Galaxiebewegung.dir/Code/SimulationBruteForce.cpp.o: CXX_COMPILER__ITG_Galaxiebewegung_unscanned_Debug /Users/niccollingro/Desktop/Universitaet$ des$ Saarlandes/WiSe$ 24$:25/ITG/ITG-Galaxiebewegung/Code/SimulationBruteForce.cpp || cmake_object_order_depends_target_ITG_Galaxiebewegung
+  DEP_FILE = CMakeFiles/ITG_Galaxiebewegung.dir/Code/SimulationBruteForce.cpp.o.d
+  FLAGS = -g -std=gnu++14 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/ITG_Galaxiebewegung.dir
+  OBJECT_FILE_DIR = CMakeFiles/ITG_Galaxiebewegung.dir/Code
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target ITG_Galaxiebewegung
@@ -63,7 +69,7 @@ build CMakeFiles/ITG_Galaxiebewegung.dir/Code/SimulationCreateStartValues.cpp.o:
 #############################################
 # Link the executable ITG_Galaxiebewegung
 
-build ITG_Galaxiebewegung: CXX_EXECUTABLE_LINKER__ITG_Galaxiebewegung_Debug CMakeFiles/ITG_Galaxiebewegung.dir/Code/SimulationCreateStartValues.cpp.o
+build ITG_Galaxiebewegung: CXX_EXECUTABLE_LINKER__ITG_Galaxiebewegung_Debug CMakeFiles/ITG_Galaxiebewegung.dir/Code/SimulationCreateStartValues.cpp.o CMakeFiles/ITG_Galaxiebewegung.dir/Code/SimulationBruteForce.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1
   OBJECT_DIR = CMakeFiles/ITG_Galaxiebewegung.dir
   POST_BUILD = :

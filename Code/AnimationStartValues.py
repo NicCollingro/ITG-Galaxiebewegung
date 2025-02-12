@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-file="/Users/niccollingro/Desktop/Universitaet des Saarlandes/WiSe 24:25/ITG/ITG-Galaxiebewegung/cmake-build-debug/Startwerte.txt"
+file="/Users/niccollingro/Desktop/Universitaet des Saarlandes/WiSe 24:25/ITG/ITG-Galaxiebewegung/Data/Startwerte.txt"
 
 coordinateX = []
 coordinateY = []
@@ -22,7 +22,7 @@ fig, ax = plt.subplots(figsize=(40, 40), dpi=100)
 fig.patch.set_facecolor('black')
 ax.set_facecolor('black')
 
-ax.scatter(coordinateX, coordinateY, color='white', s=1)
+ax.scatter(coordinateX, coordinateY, color='white', s=0.1)
 
 
 ax.set_xticks([])  # Entfernt x-Achsen-Ticks
