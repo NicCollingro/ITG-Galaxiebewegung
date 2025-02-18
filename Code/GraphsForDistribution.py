@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.stats import norm
 
-file="/Users/niccollingro/Desktop/Universitaet des Saarlandes/WiSe 24:25/ITG/ITG-Galaxiebewegung/Data/Startwerte.txt"
+file="/Users/niccollingro/Desktop/Universitaet des Saarlandes/WiSe 24:25/ITG/ITG-Galaxiebewegung/Data/StartwertGauss.txt"
 coordinateRadius = []
 coordinateDegree = []
 coordinateVelocity = []
@@ -25,7 +25,7 @@ unique_values, counts = np.unique(coordinateRadius, return_counts=True)
 
 plt.figure(figsize=(8, 4.5), dpi=300)
 
-plt.hist(coordinateRadius / 1e21, bins=75, density=True, alpha=0.85, edgecolor="black", facecolor='blue', label='Daten')
+plt.hist(coordinateRadius / 1e21, bins=75, density=True, alpha=1, edgecolor="black", facecolor='#004877', label='Daten')
 mu, std = (50000*9.461e15)/1e21, (25000*9.461e15)/1e21
 xmin, xmax = plt.xlim()
 x = np.linspace(xmin, xmax, 100)
@@ -38,20 +38,21 @@ plt.xlim(0, 1.3)
 plt.xlabel(r'Radius in [m$\cdot 10^{21}$]')
 plt.ylabel(r'Häufigkeit in [$10^{-21}$]')
 plt.tight_layout()
-plt.savefig("/Users/niccollingro/Desktop/Universitaet des Saarlandes/WiSe 24:25/ITG/ITG-Galaxiebewegung/Data/RadiusDisrtibution.pdf", format="pdf")
+#plt.savefig("/Users/niccollingro/Desktop/Universitaet des Saarlandes/WiSe 24:25/ITG/ITG-Galaxiebewegung/Data/RadiusDisrtibution.pdf", format="pdf")
 plt.show()
 plt.close()
 plt.figure(figsize=(8, 4.5), dpi=300)
-plt.hist(coordinateDegree, bins = 100, density=True, alpha=0.85, edgecolor="black", facecolor='blue', label='Daten')
+plt.hist(coordinateDegree, bins = 100, density=True, alpha=0.85, edgecolor="black", facecolor='#004877', label='Daten')
 plt.xlabel("Winkel in [rad]")
 plt.ylabel("Häufigkeit")
 plt.xlim(0, 2*np.pi)
-plt.savefig("/Users/niccollingro/Desktop/Universitaet des Saarlandes/WiSe 24:25/ITG/ITG-Galaxiebewegung/Data/DegreeDistribution.pdf", format="pdf")
+#plt.savefig("/Users/niccollingro/Desktop/Universitaet des Saarlandes/WiSe 24:25/ITG/ITG-Galaxiebewegung/Data/DegreeDistribution.pdf", format="pdf")
 plt.show()
 plt.close()
 plt.figure(figsize=(8, 4.5), dpi=300)
-plt.hist(coordinateMass, bins = 100, density=True, alpha=0.85, edgecolor="black", facecolor='blue', label='Daten')
+plt.hist(coordinateMass, bins = 100, density=True, alpha=0.85, edgecolor="black", facecolor='#004877', label='Daten')
 plt.xlabel(r'Masse in [M$_{\odot}$]')
+plt.xlim(0,300)
 plt.ylabel("Häufigkeit")
-plt.savefig("/Users/niccollingro/Desktop/Universitaet des Saarlandes/WiSe 24:25/ITG/ITG-Galaxiebewegung/Data/MassDistribution.pdf", format="pdf")
+#plt.savefig("/Users/niccollingro/Desktop/Universitaet des Saarlandes/WiSe 24:25/ITG/ITG-Galaxiebewegung/Data/MassDistribution.pdf", format="pdf")
 plt.show()

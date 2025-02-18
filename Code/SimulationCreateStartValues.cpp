@@ -14,7 +14,7 @@ public:
 };
 
 
-int main() {
+int Startwerte() {
     int entries = 100000;
     float minMass = 0.08;
     float maxMass = 300.0;
