@@ -4,436 +4,543 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
       - "CMakeLists.txt:2 (project)"
     message: |
-      The system is: Darwin - 24.1.0 - x86_64
+      The system is: Linux - 6.13.3-201.nobara.fc41.x86_64 - x86_64
   -
     kind: "message-v1"
     backtrace:
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:2 (project)"
-    message: |
-      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
-      Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
-      Build flags: 
-      Id flags:  
-      
-      The output was:
-      1
-      ld: library 'System' not found
-      cc: error: linker command failed with exit code 1 (use -v to see invocation)
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-      Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
-      Build flags: 
-      Id flags: -c 
-      
-      The output was:
-      0
-      
-      
-      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
-      
-      The C compiler identification is AppleClang, found in:
-        /Users/niccollingro/Desktop/Universitaet des Saarlandes/WiSe 24:25/ITG/ITG-Galaxiebewegung/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdC/CMakeCCompilerId.o
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:2 (project)"
-    message: |
-      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
-      Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+      Compiler: /usr/bin/cc 
       Build flags: 
       Id flags:  
       
       The output was:
-      1
-      ld: library 'c++' not found
-      c++: error: linker command failed with exit code 1 (use -v to see invocation)
+      0
       
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/niccollingro/Documents/ITG 1/ITG-Galaxiebewegung/cmake-build-debug/CMakeFiles/3.30.5/CompilerIdC/a.out
       
   -
     kind: "message-v1"
     backtrace:
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-      Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+      Compiler: /usr/bin/c++ 
       Build flags: 
-      Id flags: -c 
+      Id flags:  
       
       The output was:
       0
       
       
-      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
       
-      The CXX compiler identification is AppleClang, found in:
-        /Users/niccollingro/Desktop/Universitaet des Saarlandes/WiSe 24:25/ITG/ITG-Galaxiebewegung/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdCXX/CMakeCXXCompilerId.o
+      The CXX compiler identification is GNU, found in:
+        /home/niccollingro/Documents/ITG 1/ITG-Galaxiebewegung/cmake-build-debug/CMakeFiles/3.30.5/CompilerIdCXX/a.out
       
   -
     kind: "try_compile-v1"
     backtrace:
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/Users/niccollingro/Desktop/Universitaet des Saarlandes/WiSe 24:25/ITG/ITG-Galaxiebewegung/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-p8jnHT"
-      binary: "/Users/niccollingro/Desktop/Universitaet des Saarlandes/WiSe 24:25/ITG/ITG-Galaxiebewegung/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-p8jnHT"
+      source: "/home/niccollingro/Documents/ITG 1/ITG-Galaxiebewegung/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-sXaNDC"
+      binary: "/home/niccollingro/Documents/ITG 1/ITG-Galaxiebewegung/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-sXaNDC"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_OSX_ARCHITECTURES: ""
-      CMAKE_OSX_DEPLOYMENT_TARGET: "15.1"
-      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk"
     buildResult:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/niccollingro/Desktop/Universitaet des Saarlandes/WiSe 24:25/ITG/ITG-Galaxiebewegung/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-p8jnHT'
+        Change Dir: '/home/niccollingro/Documents/ITG 1/ITG-Galaxiebewegung/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-sXaNDC'
         
-        Run Build Command(s): /Applications/CLion.app/Contents/bin/ninja/mac/x64/ninja -v cmTC_a5d2b
-        [1/2] /Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1 -fcolor-diagnostics   -v -Wl,-v -MD -MT CMakeFiles/cmTC_a5d2b.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_a5d2b.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_a5d2b.dir/CMakeCCompilerABI.c.o -c /Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c
-        Apple clang version 16.0.0 (clang-1600.0.26.6)
-        Target: x86_64-apple-darwin24.1.0
+        Run Build Command(s): /app/extra/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_daff8/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_daff8.dir/build.make CMakeFiles/cmTC_daff8.dir/build
+        make[1]: Entering directory '/home/niccollingro/Documents/ITG 1/ITG-Galaxiebewegung/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-sXaNDC'
+        Building C object CMakeFiles/cmTC_daff8.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_daff8.dir/CMakeCCompilerABI.c.o -c /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        Target: x86_64-unknown-linux-gnu
+        Configured with: ../configure --prefix=/usr --exec-prefix=/usr --bindir=/usr/bin --sbindir=/usr/bin --sysconfdir=/etc --datadir=/usr/share --includedir=/usr/include --libdir=/usr/lib --libexecdir=/usr/libexec --localstatedir=/var --sharedstatedir=/usr/com --mandir=/usr/share/man --infodir=/usr/share/info --enable-deterministic-archives --enable-shared --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu lt_cv_sys_lib_dlsearch_path_spec=/usr/lib/x86_64-linux-gnu --target=x86_64-unknown-linux-gnu --disable-multilib --enable-multiarch --disable-bootstrap --enable-languages=c,c++,fortran,objc,obj-c++ --enable-default-pie --enable-default-ssp --with-isl --disable-libssp --enable-linker-build-id --disable-libstdcxx-filesystem-ts --enable-cet --with-system-zlib --with-tune=generic --with-arch_64=x86-64
         Thread model: posix
-        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
-        cc: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
-         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx15.1.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=15.2 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb -target-linker-version 1115.7.3 -v "-fcoverage-compilation-dir=/Users/niccollingro/Desktop/Universitaet des Saarlandes/WiSe 24:25/ITG/ITG-Galaxiebewegung/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-p8jnHT" -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_a5d2b.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_a5d2b.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/16/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant "-fdebug-compilation-dir=/Users/niccollingro/Desktop/Universitaet des Saarlandes/WiSe 24:25/ITG/ITG-Galaxiebewegung/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-p8jnHT" -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -fcolor-diagnostics -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_a5d2b.dir/CMakeCCompilerABI.c.o -x c /Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c
-        clang -cc1 version 16.0.0 (clang-1600.0.26.6) default target x86_64-apple-darwin24.1.0
-        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/local/include"
-        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/Library/Frameworks"
+        Supported LTO compression algorithms: zlib
+        gcc version 14.2.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_daff8.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_daff8.dir/'
+         /usr/libexec/gcc/x86_64-unknown-linux-gnu/14.2.0/cc1 -quiet -v -imultiarch x86_64-linux-gnu /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_daff8.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o /run/user/1000/app/com.jetbrains.CLion/cciWSGnb.s
+        GNU C17 (GCC) version 14.2.0 (x86_64-unknown-linux-gnu)
+        	compiled by GNU C version 14.2.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/local/include"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/include-fixed/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../x86_64-unknown-linux-gnu/include"
         #include "..." search starts here:
         #include <...> search starts here:
-         /Library/Developer/CommandLineTools/usr/lib/clang/16/include
-         /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include
-         /Library/Developer/CommandLineTools/usr/include
-         /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks (framework directory)
+         /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/include
+         /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/include-fixed
+         /usr/include/x86_64-linux-gnu
+         /usr/include
         End of search list.
-        [2/2] : && /Library/Developer/CommandLineTools/usr/bin/cc -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTC_a5d2b.dir/CMakeCCompilerABI.c.o -o cmTC_a5d2b   && :
-        Apple clang version 16.0.0 (clang-1600.0.26.6)
-        Target: x86_64-apple-darwin24.1.0
+        Compiler executable checksum: b6a0f5d97206a3bf9f697c222932782d
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_daff8.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_daff8.dir/'
+         /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../x86_64-unknown-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_daff8.dir/CMakeCCompilerABI.c.o /run/user/1000/app/com.jetbrains.CLion/cciWSGnb.s
+        GNU assembler version 2.44 (x86_64-unknown-linux-gnu) using BFD version (GNU Binutils) 2.44
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-unknown-linux-gnu/14.2.0/:/usr/libexec/gcc/x86_64-unknown-linux-gnu/14.2.0/:/usr/libexec/gcc/x86_64-unknown-linux-gnu/:/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/:/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../x86_64-unknown-linux-gnu/bin/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../x86_64-unknown-linux-gnu/lib/:/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_daff8.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_daff8.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_daff8
+        /app/extra/clion/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_daff8.dir/link.txt --verbose=1
+        /usr/bin/cc  -v -Wl,-v CMakeFiles/cmTC_daff8.dir/CMakeCCompilerABI.c.o -o cmTC_daff8
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-unknown-linux-gnu/14.2.0/lto-wrapper
+        Target: x86_64-unknown-linux-gnu
+        Configured with: ../configure --prefix=/usr --exec-prefix=/usr --bindir=/usr/bin --sbindir=/usr/bin --sysconfdir=/etc --datadir=/usr/share --includedir=/usr/include --libdir=/usr/lib --libexecdir=/usr/libexec --localstatedir=/var --sharedstatedir=/usr/com --mandir=/usr/share/man --infodir=/usr/share/info --enable-deterministic-archives --enable-shared --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu lt_cv_sys_lib_dlsearch_path_spec=/usr/lib/x86_64-linux-gnu --target=x86_64-unknown-linux-gnu --disable-multilib --enable-multiarch --disable-bootstrap --enable-languages=c,c++,fortran,objc,obj-c++ --enable-default-pie --enable-default-ssp --with-isl --disable-libssp --enable-linker-build-id --disable-libstdcxx-filesystem-ts --enable-cet --with-system-zlib --with-tune=generic --with-arch_64=x86-64
         Thread model: posix
-        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
-         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 15.1.0 15.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_a5d2b -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_a5d2b.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a
-        @(#)PROGRAM:ld PROJECT:ld-1115.7.3
-        BUILD 23:50:35 Dec  5 2024
-        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
-        will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
-        LTO support using: LLVM version 16.0.0 (static support for 29, runtime is 29)
-        TAPI support using: Apple TAPI version 16.0.0 (tapi-1600.0.11.9)
-        Library search paths:
-        	/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib
-        	/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib/swift
-        Framework search paths:
-        	/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks
+        Supported LTO compression algorithms: zlib
+        gcc version 14.2.0 (GCC) 
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-unknown-linux-gnu/14.2.0/:/usr/libexec/gcc/x86_64-unknown-linux-gnu/14.2.0/:/usr/libexec/gcc/x86_64-unknown-linux-gnu/:/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/:/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../x86_64-unknown-linux-gnu/bin/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../x86_64-unknown-linux-gnu/lib/:/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_daff8' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_daff8.'
+         /usr/libexec/gcc/x86_64-unknown-linux-gnu/14.2.0/collect2 -plugin /usr/libexec/gcc/x86_64-unknown-linux-gnu/14.2.0/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-unknown-linux-gnu/14.2.0/lto-wrapper -plugin-opt=-fresolution=/run/user/1000/app/com.jetbrains.CLion/ccVZR6i4.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_daff8 /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/crtbeginS.o -L/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0 -L/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../x86_64-unknown-linux-gnu/lib -L/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../.. -v CMakeFiles/cmTC_daff8.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/crtendS.o /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu/crtn.o
+        collect2 version 14.2.0
+        /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../x86_64-unknown-linux-gnu/bin/ld -plugin /usr/libexec/gcc/x86_64-unknown-linux-gnu/14.2.0/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-unknown-linux-gnu/14.2.0/lto-wrapper -plugin-opt=-fresolution=/run/user/1000/app/com.jetbrains.CLion/ccVZR6i4.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_daff8 /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/crtbeginS.o -L/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0 -L/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../x86_64-unknown-linux-gnu/lib -L/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../.. -v CMakeFiles/cmTC_daff8.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/crtendS.o /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu/crtn.o
+        GNU ld (GNU Binutils) 2.44
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_daff8' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_daff8.'
+        make[1]: Leaving directory '/home/niccollingro/Documents/ITG 1/ITG-Galaxiebewegung/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-sXaNDC'
         
       exitCode: 0
   -
     kind: "message-v1"
     backtrace:
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:137 (message)"
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Parsed C implicit include dir info: rv=done
         found start of include info
         found start of implicit include info
-          add: [/Library/Developer/CommandLineTools/usr/lib/clang/16/include]
-          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include]
-          add: [/Library/Developer/CommandLineTools/usr/include]
+          add: [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/include]
+          add: [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/include-fixed]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
         end of search list found
-        collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/16/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/16/include]
-        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include]
-        collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
-        implicit include dirs: [/Library/Developer/CommandLineTools/usr/lib/clang/16/include;/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include;/Library/Developer/CommandLineTools/usr/include]
+        collapse include dir [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/include] ==> [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/include]
+        collapse include dir [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/include-fixed] ==> [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/include-fixed]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/include;/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/include-fixed;/usr/include/x86_64-linux-gnu;/usr/include]
       
       
   -
     kind: "message-v1"
     backtrace:
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: '/Users/niccollingro/Desktop/Universitaet des Saarlandes/WiSe 24:25/ITG/ITG-Galaxiebewegung/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-p8jnHT']
+        ignore line: [Change Dir: '/home/niccollingro/Documents/ITG 1/ITG-Galaxiebewegung/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-sXaNDC']
         ignore line: []
-        ignore line: [Run Build Command(s): /Applications/CLion.app/Contents/bin/ninja/mac/x64/ninja -v cmTC_a5d2b]
-        ignore line: [[1/2] /Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1 -fcolor-diagnostics   -v -Wl -v -MD -MT CMakeFiles/cmTC_a5d2b.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_a5d2b.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_a5d2b.dir/CMakeCCompilerABI.c.o -c /Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c]
-        ignore line: [Apple clang version 16.0.0 (clang-1600.0.26.6)]
-        ignore line: [Target: x86_64-apple-darwin24.1.0]
+        ignore line: [Run Build Command(s): /app/extra/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_daff8/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_daff8.dir/build.make CMakeFiles/cmTC_daff8.dir/build]
+        ignore line: [make[1]: Entering directory '/home/niccollingro/Documents/ITG 1/ITG-Galaxiebewegung/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-sXaNDC']
+        ignore line: [Building C object CMakeFiles/cmTC_daff8.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_daff8.dir/CMakeCCompilerABI.c.o -c /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [Target: x86_64-unknown-linux-gnu]
+        ignore line: [Configured with: ../configure --prefix=/usr --exec-prefix=/usr --bindir=/usr/bin --sbindir=/usr/bin --sysconfdir=/etc --datadir=/usr/share --includedir=/usr/include --libdir=/usr/lib --libexecdir=/usr/libexec --localstatedir=/var --sharedstatedir=/usr/com --mandir=/usr/share/man --infodir=/usr/share/info --enable-deterministic-archives --enable-shared --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu lt_cv_sys_lib_dlsearch_path_spec=/usr/lib/x86_64-linux-gnu --target=x86_64-unknown-linux-gnu --disable-multilib --enable-multiarch --disable-bootstrap --enable-languages=c c++ fortran objc obj-c++ --enable-default-pie --enable-default-ssp --with-isl --disable-libssp --enable-linker-build-id --disable-libstdcxx-filesystem-ts --enable-cet --with-system-zlib --with-tune=generic --with-arch_64=x86-64]
         ignore line: [Thread model: posix]
-        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-        ignore line: [cc: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
-        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx15.1.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=15.2 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb -target-linker-version 1115.7.3 -v "-fcoverage-compilation-dir=/Users/niccollingro/Desktop/Universitaet des Saarlandes/WiSe 24:25/ITG/ITG-Galaxiebewegung/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-p8jnHT" -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_a5d2b.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_a5d2b.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/16/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant "-fdebug-compilation-dir=/Users/niccollingro/Desktop/Universitaet des Saarlandes/WiSe 24:25/ITG/ITG-Galaxiebewegung/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-p8jnHT" -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -fcolor-diagnostics -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_a5d2b.dir/CMakeCCompilerABI.c.o -x c /Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c]
-        ignore line: [clang -cc1 version 16.0.0 (clang-1600.0.26.6) default target x86_64-apple-darwin24.1.0]
-        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/local/include"]
-        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/Library/Frameworks"]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 14.2.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_daff8.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_daff8.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-unknown-linux-gnu/14.2.0/cc1 -quiet -v -imultiarch x86_64-linux-gnu /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_daff8.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o /run/user/1000/app/com.jetbrains.CLion/cciWSGnb.s]
+        ignore line: [GNU C17 (GCC) version 14.2.0 (x86_64-unknown-linux-gnu)]
+        ignore line: [	compiled by GNU C version 14.2.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/include-fixed/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../x86_64-unknown-linux-gnu/include"]
         ignore line: [#include "..." search starts here:]
         ignore line: [#include <...> search starts here:]
-        ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/16/include]
-        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include]
-        ignore line: [ /Library/Developer/CommandLineTools/usr/include]
-        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [ /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/include]
+        ignore line: [ /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/include-fixed]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
         ignore line: [End of search list.]
-        ignore line: [[2/2] : && /Library/Developer/CommandLineTools/usr/bin/cc -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1 -Wl -search_paths_first -Wl -headerpad_max_install_names -v -Wl -v CMakeFiles/cmTC_a5d2b.dir/CMakeCCompilerABI.c.o -o cmTC_a5d2b   && :]
-        ignore line: [Apple clang version 16.0.0 (clang-1600.0.26.6)]
-        ignore line: [Target: x86_64-apple-darwin24.1.0]
+        ignore line: [Compiler executable checksum: b6a0f5d97206a3bf9f697c222932782d]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_daff8.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_daff8.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../x86_64-unknown-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_daff8.dir/CMakeCCompilerABI.c.o /run/user/1000/app/com.jetbrains.CLion/cciWSGnb.s]
+        ignore line: [GNU assembler version 2.44 (x86_64-unknown-linux-gnu) using BFD version (GNU Binutils) 2.44]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-unknown-linux-gnu/14.2.0/:/usr/libexec/gcc/x86_64-unknown-linux-gnu/14.2.0/:/usr/libexec/gcc/x86_64-unknown-linux-gnu/:/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/:/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../x86_64-unknown-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../x86_64-unknown-linux-gnu/lib/:/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_daff8.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_daff8.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_daff8]
+        ignore line: [/app/extra/clion/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_daff8.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/cc  -v -Wl -v CMakeFiles/cmTC_daff8.dir/CMakeCCompilerABI.c.o -o cmTC_daff8]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-unknown-linux-gnu/14.2.0/lto-wrapper]
+        ignore line: [Target: x86_64-unknown-linux-gnu]
+        ignore line: [Configured with: ../configure --prefix=/usr --exec-prefix=/usr --bindir=/usr/bin --sbindir=/usr/bin --sysconfdir=/etc --datadir=/usr/share --includedir=/usr/include --libdir=/usr/lib --libexecdir=/usr/libexec --localstatedir=/var --sharedstatedir=/usr/com --mandir=/usr/share/man --infodir=/usr/share/info --enable-deterministic-archives --enable-shared --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu lt_cv_sys_lib_dlsearch_path_spec=/usr/lib/x86_64-linux-gnu --target=x86_64-unknown-linux-gnu --disable-multilib --enable-multiarch --disable-bootstrap --enable-languages=c c++ fortran objc obj-c++ --enable-default-pie --enable-default-ssp --with-isl --disable-libssp --enable-linker-build-id --disable-libstdcxx-filesystem-ts --enable-cet --with-system-zlib --with-tune=generic --with-arch_64=x86-64]
         ignore line: [Thread model: posix]
-        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 15.1.0 15.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_a5d2b -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_a5d2b.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
-          arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
-          arg [-demangle] ==> ignore
-          arg [-lto_library] ==> ignore, skip following value
-          arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
-          arg [-dynamic] ==> ignore
-          arg [-arch] ==> ignore
-          arg [x86_64] ==> ignore
-          arg [-platform_version] ==> ignore
-          arg [macos] ==> ignore
-          arg [15.1.0] ==> ignore
-          arg [15.2] ==> ignore
-          arg [-syslibroot] ==> ignore
-          arg [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk] ==> ignore
-          arg [-mllvm] ==> ignore
-          arg [-enable-linkonceodr-outlining] ==> ignore
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 14.2.0 (GCC) ]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-unknown-linux-gnu/14.2.0/:/usr/libexec/gcc/x86_64-unknown-linux-gnu/14.2.0/:/usr/libexec/gcc/x86_64-unknown-linux-gnu/:/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/:/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../x86_64-unknown-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../x86_64-unknown-linux-gnu/lib/:/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_daff8' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_daff8.']
+        link line: [ /usr/libexec/gcc/x86_64-unknown-linux-gnu/14.2.0/collect2 -plugin /usr/libexec/gcc/x86_64-unknown-linux-gnu/14.2.0/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-unknown-linux-gnu/14.2.0/lto-wrapper -plugin-opt=-fresolution=/run/user/1000/app/com.jetbrains.CLion/ccVZR6i4.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_daff8 /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/crtbeginS.o -L/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0 -L/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../x86_64-unknown-linux-gnu/lib -L/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../.. -v CMakeFiles/cmTC_daff8.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/crtendS.o /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/libexec/gcc/x86_64-unknown-linux-gnu/14.2.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/libexec/gcc/x86_64-unknown-linux-gnu/14.2.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/libexec/gcc/x86_64-unknown-linux-gnu/14.2.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/run/user/1000/app/com.jetbrains.CLion/ccVZR6i4.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_a5d2b] ==> ignore
-          arg [-search_paths_first] ==> ignore
-          arg [-headerpad_max_install_names] ==> ignore
+          arg [cmTC_daff8] ==> ignore
+          arg [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0] ==> dir [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0]
+          arg [-L/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../lib64]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+          arg [-L/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../x86_64-unknown-linux-gnu/lib] ==> dir [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../x86_64-unknown-linux-gnu/lib]
+          arg [-L/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../..] ==> dir [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../..]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_a5d2b.dir/CMakeCCompilerABI.c.o] ==> ignore
-          arg [-lSystem] ==> lib [System]
-          arg [/Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
-        linker tool for 'C': /Library/Developer/CommandLineTools/usr/bin/ld
-        Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib/swift]
-        Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks]
-        remove lib [System]
-        remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
-        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib]
-        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib/swift] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib/swift]
-        collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks]
-        implicit libs: []
-        implicit objs: []
-        implicit dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib/swift]
-        implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks]
+          arg [CMakeFiles/cmTC_daff8.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [collect2 version 14.2.0]
+        ignore line: [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../x86_64-unknown-linux-gnu/bin/ld -plugin /usr/libexec/gcc/x86_64-unknown-linux-gnu/14.2.0/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-unknown-linux-gnu/14.2.0/lto-wrapper -plugin-opt=-fresolution=/run/user/1000/app/com.jetbrains.CLion/ccVZR6i4.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_daff8 /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/crtbeginS.o -L/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0 -L/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../x86_64-unknown-linux-gnu/lib -L/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../.. -v CMakeFiles/cmTC_daff8.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/crtendS.o /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu/crtn.o]
+        linker tool for 'C': /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../x86_64-unknown-linux-gnu/bin/ld
+        collapse obj [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0] ==> [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0]
+        collapse library dir [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../lib64] ==> [/usr/lib64]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+        collapse library dir [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../x86_64-unknown-linux-gnu/lib] ==> [/usr/x86_64-unknown-linux-gnu/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../..] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/crtbeginS.o;/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0;/usr/lib/x86_64-linux-gnu;/usr/lib64;/lib/x86_64-linux-gnu;/lib64;/usr/x86_64-unknown-linux-gnu/lib;/usr/lib]
+        implicit fwks: []
       
       
   -
     kind: "message-v1"
     backtrace:
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
-      Running the C compiler's linker: "/Library/Developer/CommandLineTools/usr/bin/ld" "-v"
-      @(#)PROGRAM:ld PROJECT:ld-1115.7.3
-      BUILD 23:50:35 Dec  5 2024
-      configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
-      will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
-      LTO support using: LLVM version 16.0.0 (static support for 29, runtime is 29)
-      TAPI support using: Apple TAPI version 16.0.0 (tapi-1600.0.11.9)
+      Running the C compiler's linker: "/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../x86_64-unknown-linux-gnu/bin/ld" "-v"
+      GNU ld (GNU Binutils) 2.44
   -
     kind: "try_compile-v1"
     backtrace:
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/Users/niccollingro/Desktop/Universitaet des Saarlandes/WiSe 24:25/ITG/ITG-Galaxiebewegung/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Ji2RI7"
-      binary: "/Users/niccollingro/Desktop/Universitaet des Saarlandes/WiSe 24:25/ITG/ITG-Galaxiebewegung/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Ji2RI7"
+      source: "/home/niccollingro/Documents/ITG 1/ITG-Galaxiebewegung/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-c6y24M"
+      binary: "/home/niccollingro/Documents/ITG 1/ITG-Galaxiebewegung/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-c6y24M"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_OSX_ARCHITECTURES: ""
-      CMAKE_OSX_DEPLOYMENT_TARGET: "15.1"
-      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk"
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/niccollingro/Desktop/Universitaet des Saarlandes/WiSe 24:25/ITG/ITG-Galaxiebewegung/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Ji2RI7'
+        Change Dir: '/home/niccollingro/Documents/ITG 1/ITG-Galaxiebewegung/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-c6y24M'
         
-        Run Build Command(s): /Applications/CLion.app/Contents/bin/ninja/mac/x64/ninja -v cmTC_e6914
-        [1/2] /Library/Developer/CommandLineTools/usr/bin/c++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1 -fcolor-diagnostics   -v -Wl,-v -MD -MT CMakeFiles/cmTC_e6914.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_e6914.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_e6914.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp
-        Apple clang version 16.0.0 (clang-1600.0.26.6)
-        Target: x86_64-apple-darwin24.1.0
+        Run Build Command(s): /app/extra/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a503e/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_a503e.dir/build.make CMakeFiles/cmTC_a503e.dir/build
+        make[1]: Entering directory '/home/niccollingro/Documents/ITG 1/ITG-Galaxiebewegung/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-c6y24M'
+        Building CXX object CMakeFiles/cmTC_a503e.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_a503e.dir/CMakeCXXCompilerABI.cpp.o -c /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        Target: x86_64-unknown-linux-gnu
+        Configured with: ../configure --prefix=/usr --exec-prefix=/usr --bindir=/usr/bin --sbindir=/usr/bin --sysconfdir=/etc --datadir=/usr/share --includedir=/usr/include --libdir=/usr/lib --libexecdir=/usr/libexec --localstatedir=/var --sharedstatedir=/usr/com --mandir=/usr/share/man --infodir=/usr/share/info --enable-deterministic-archives --enable-shared --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu lt_cv_sys_lib_dlsearch_path_spec=/usr/lib/x86_64-linux-gnu --target=x86_64-unknown-linux-gnu --disable-multilib --enable-multiarch --disable-bootstrap --enable-languages=c,c++,fortran,objc,obj-c++ --enable-default-pie --enable-default-ssp --with-isl --disable-libssp --enable-linker-build-id --disable-libstdcxx-filesystem-ts --enable-cet --with-system-zlib --with-tune=generic --with-arch_64=x86-64
         Thread model: posix
-        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
-        c++: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
-        ignoring nonexistent directory "/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"
-         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx15.1.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=15.2 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb -target-linker-version 1115.7.3 -v "-fcoverage-compilation-dir=/Users/niccollingro/Desktop/Universitaet des Saarlandes/WiSe 24:25/ITG/ITG-Galaxiebewegung/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Ji2RI7" -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_e6914.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_e6914.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/16/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro "-fdebug-compilation-dir=/Users/niccollingro/Desktop/Universitaet des Saarlandes/WiSe 24:25/ITG/ITG-Galaxiebewegung/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Ji2RI7" -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -fcolor-diagnostics -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_e6914.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp
-        clang -cc1 version 16.0.0 (clang-1600.0.26.6) default target x86_64-apple-darwin24.1.0
-        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/local/include"
-        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/Library/Frameworks"
+        Supported LTO compression algorithms: zlib
+        gcc version 14.2.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_a503e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a503e.dir/'
+         /usr/libexec/gcc/x86_64-unknown-linux-gnu/14.2.0/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_a503e.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o /run/user/1000/app/com.jetbrains.CLion/cct2Hwey.s
+        GNU C++17 (GCC) version 14.2.0 (x86_64-unknown-linux-gnu)
+        	compiled by GNU C version 14.2.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/local/include"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/include-fixed/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../x86_64-unknown-linux-gnu/include"
         #include "..." search starts here:
         #include <...> search starts here:
-         /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1
-         /Library/Developer/CommandLineTools/usr/lib/clang/16/include
-         /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include
-         /Library/Developer/CommandLineTools/usr/include
-         /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks (framework directory)
+         /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../include/c++/14.2.0
+         /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../include/c++/14.2.0/x86_64-unknown-linux-gnu
+         /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../include/c++/14.2.0/backward
+         /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/include
+         /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/include-fixed
+         /usr/include/x86_64-linux-gnu
+         /usr/include
         End of search list.
-        [2/2] : && /Library/Developer/CommandLineTools/usr/bin/c++ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTC_e6914.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_e6914   && :
-        Apple clang version 16.0.0 (clang-1600.0.26.6)
-        Target: x86_64-apple-darwin24.1.0
+        Compiler executable checksum: 26a1c39cb977350541d394547218e078
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_a503e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a503e.dir/'
+         /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../x86_64-unknown-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_a503e.dir/CMakeCXXCompilerABI.cpp.o /run/user/1000/app/com.jetbrains.CLion/cct2Hwey.s
+        GNU assembler version 2.44 (x86_64-unknown-linux-gnu) using BFD version (GNU Binutils) 2.44
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-unknown-linux-gnu/14.2.0/:/usr/libexec/gcc/x86_64-unknown-linux-gnu/14.2.0/:/usr/libexec/gcc/x86_64-unknown-linux-gnu/:/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/:/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../x86_64-unknown-linux-gnu/bin/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../x86_64-unknown-linux-gnu/lib/:/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_a503e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a503e.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_a503e
+        /app/extra/clion/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a503e.dir/link.txt --verbose=1
+        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_a503e.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_a503e
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-unknown-linux-gnu/14.2.0/lto-wrapper
+        Target: x86_64-unknown-linux-gnu
+        Configured with: ../configure --prefix=/usr --exec-prefix=/usr --bindir=/usr/bin --sbindir=/usr/bin --sysconfdir=/etc --datadir=/usr/share --includedir=/usr/include --libdir=/usr/lib --libexecdir=/usr/libexec --localstatedir=/var --sharedstatedir=/usr/com --mandir=/usr/share/man --infodir=/usr/share/info --enable-deterministic-archives --enable-shared --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu lt_cv_sys_lib_dlsearch_path_spec=/usr/lib/x86_64-linux-gnu --target=x86_64-unknown-linux-gnu --disable-multilib --enable-multiarch --disable-bootstrap --enable-languages=c,c++,fortran,objc,obj-c++ --enable-default-pie --enable-default-ssp --with-isl --disable-libssp --enable-linker-build-id --disable-libstdcxx-filesystem-ts --enable-cet --with-system-zlib --with-tune=generic --with-arch_64=x86-64
         Thread model: posix
-        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
-         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 15.1.0 15.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_e6914 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_e6914.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a
-        @(#)PROGRAM:ld PROJECT:ld-1115.7.3
-        BUILD 23:50:35 Dec  5 2024
-        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
-        will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
-        LTO support using: LLVM version 16.0.0 (static support for 29, runtime is 29)
-        TAPI support using: Apple TAPI version 16.0.0 (tapi-1600.0.11.9)
-        Library search paths:
-        	/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib
-        	/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib/swift
-        Framework search paths:
-        	/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks
+        Supported LTO compression algorithms: zlib
+        gcc version 14.2.0 (GCC) 
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-unknown-linux-gnu/14.2.0/:/usr/libexec/gcc/x86_64-unknown-linux-gnu/14.2.0/:/usr/libexec/gcc/x86_64-unknown-linux-gnu/:/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/:/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../x86_64-unknown-linux-gnu/bin/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../x86_64-unknown-linux-gnu/lib/:/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a503e' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a503e.'
+         /usr/libexec/gcc/x86_64-unknown-linux-gnu/14.2.0/collect2 -plugin /usr/libexec/gcc/x86_64-unknown-linux-gnu/14.2.0/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-unknown-linux-gnu/14.2.0/lto-wrapper -plugin-opt=-fresolution=/run/user/1000/app/com.jetbrains.CLion/cchWDrnH.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_a503e /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/crtbeginS.o -L/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0 -L/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../x86_64-unknown-linux-gnu/lib -L/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../.. -v CMakeFiles/cmTC_a503e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/crtendS.o /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu/crtn.o
+        collect2 version 14.2.0
+        /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../x86_64-unknown-linux-gnu/bin/ld -plugin /usr/libexec/gcc/x86_64-unknown-linux-gnu/14.2.0/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-unknown-linux-gnu/14.2.0/lto-wrapper -plugin-opt=-fresolution=/run/user/1000/app/com.jetbrains.CLion/cchWDrnH.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_a503e /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/crtbeginS.o -L/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0 -L/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../x86_64-unknown-linux-gnu/lib -L/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../.. -v CMakeFiles/cmTC_a503e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/crtendS.o /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu/crtn.o
+        GNU ld (GNU Binutils) 2.44
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a503e' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a503e.'
+        make[1]: Leaving directory '/home/niccollingro/Documents/ITG 1/ITG-Galaxiebewegung/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-c6y24M'
         
       exitCode: 0
   -
     kind: "message-v1"
     backtrace:
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:137 (message)"
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Parsed CXX implicit include dir info: rv=done
         found start of include info
         found start of implicit include info
-          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1]
-          add: [/Library/Developer/CommandLineTools/usr/lib/clang/16/include]
-          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include]
-          add: [/Library/Developer/CommandLineTools/usr/include]
+          add: [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../include/c++/14.2.0]
+          add: [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../include/c++/14.2.0/x86_64-unknown-linux-gnu]
+          add: [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../include/c++/14.2.0/backward]
+          add: [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/include]
+          add: [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/include-fixed]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
         end of search list found
-        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1]
-        collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/16/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/16/include]
-        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include]
-        collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
-        implicit include dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1;/Library/Developer/CommandLineTools/usr/lib/clang/16/include;/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include;/Library/Developer/CommandLineTools/usr/include]
+        collapse include dir [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../include/c++/14.2.0] ==> [/usr/include/c++/14.2.0]
+        collapse include dir [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../include/c++/14.2.0/x86_64-unknown-linux-gnu] ==> [/usr/include/c++/14.2.0/x86_64-unknown-linux-gnu]
+        collapse include dir [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../include/c++/14.2.0/backward] ==> [/usr/include/c++/14.2.0/backward]
+        collapse include dir [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/include] ==> [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/include]
+        collapse include dir [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/include-fixed] ==> [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/include-fixed]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/14.2.0;/usr/include/c++/14.2.0/x86_64-unknown-linux-gnu;/usr/include/c++/14.2.0/backward;/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/include;/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/include-fixed;/usr/include/x86_64-linux-gnu;/usr/include]
       
       
   -
     kind: "message-v1"
     backtrace:
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: '/Users/niccollingro/Desktop/Universitaet des Saarlandes/WiSe 24:25/ITG/ITG-Galaxiebewegung/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Ji2RI7']
+        ignore line: [Change Dir: '/home/niccollingro/Documents/ITG 1/ITG-Galaxiebewegung/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-c6y24M']
         ignore line: []
-        ignore line: [Run Build Command(s): /Applications/CLion.app/Contents/bin/ninja/mac/x64/ninja -v cmTC_e6914]
-        ignore line: [[1/2] /Library/Developer/CommandLineTools/usr/bin/c++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1 -fcolor-diagnostics   -v -Wl -v -MD -MT CMakeFiles/cmTC_e6914.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_e6914.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_e6914.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp]
-        ignore line: [Apple clang version 16.0.0 (clang-1600.0.26.6)]
-        ignore line: [Target: x86_64-apple-darwin24.1.0]
+        ignore line: [Run Build Command(s): /app/extra/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a503e/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_a503e.dir/build.make CMakeFiles/cmTC_a503e.dir/build]
+        ignore line: [make[1]: Entering directory '/home/niccollingro/Documents/ITG 1/ITG-Galaxiebewegung/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-c6y24M']
+        ignore line: [Building CXX object CMakeFiles/cmTC_a503e.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_a503e.dir/CMakeCXXCompilerABI.cpp.o -c /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [Target: x86_64-unknown-linux-gnu]
+        ignore line: [Configured with: ../configure --prefix=/usr --exec-prefix=/usr --bindir=/usr/bin --sbindir=/usr/bin --sysconfdir=/etc --datadir=/usr/share --includedir=/usr/include --libdir=/usr/lib --libexecdir=/usr/libexec --localstatedir=/var --sharedstatedir=/usr/com --mandir=/usr/share/man --infodir=/usr/share/info --enable-deterministic-archives --enable-shared --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu lt_cv_sys_lib_dlsearch_path_spec=/usr/lib/x86_64-linux-gnu --target=x86_64-unknown-linux-gnu --disable-multilib --enable-multiarch --disable-bootstrap --enable-languages=c c++ fortran objc obj-c++ --enable-default-pie --enable-default-ssp --with-isl --disable-libssp --enable-linker-build-id --disable-libstdcxx-filesystem-ts --enable-cet --with-system-zlib --with-tune=generic --with-arch_64=x86-64]
         ignore line: [Thread model: posix]
-        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-        ignore line: [c++: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
-        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"]
-        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx15.1.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=15.2 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb -target-linker-version 1115.7.3 -v "-fcoverage-compilation-dir=/Users/niccollingro/Desktop/Universitaet des Saarlandes/WiSe 24:25/ITG/ITG-Galaxiebewegung/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Ji2RI7" -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_e6914.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_e6914.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/16/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro "-fdebug-compilation-dir=/Users/niccollingro/Desktop/Universitaet des Saarlandes/WiSe 24:25/ITG/ITG-Galaxiebewegung/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Ji2RI7" -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -fcolor-diagnostics -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_e6914.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp]
-        ignore line: [clang -cc1 version 16.0.0 (clang-1600.0.26.6) default target x86_64-apple-darwin24.1.0]
-        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/local/include"]
-        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/Library/Frameworks"]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 14.2.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_a503e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a503e.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-unknown-linux-gnu/14.2.0/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_a503e.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o /run/user/1000/app/com.jetbrains.CLion/cct2Hwey.s]
+        ignore line: [GNU C++17 (GCC) version 14.2.0 (x86_64-unknown-linux-gnu)]
+        ignore line: [	compiled by GNU C version 14.2.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/include-fixed/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../x86_64-unknown-linux-gnu/include"]
         ignore line: [#include "..." search starts here:]
         ignore line: [#include <...> search starts here:]
-        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1]
-        ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/16/include]
-        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include]
-        ignore line: [ /Library/Developer/CommandLineTools/usr/include]
-        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [ /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../include/c++/14.2.0]
+        ignore line: [ /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../include/c++/14.2.0/x86_64-unknown-linux-gnu]
+        ignore line: [ /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../include/c++/14.2.0/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/include]
+        ignore line: [ /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/include-fixed]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
         ignore line: [End of search list.]
-        ignore line: [[2/2] : && /Library/Developer/CommandLineTools/usr/bin/c++ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1 -Wl -search_paths_first -Wl -headerpad_max_install_names -v -Wl -v CMakeFiles/cmTC_e6914.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_e6914   && :]
-        ignore line: [Apple clang version 16.0.0 (clang-1600.0.26.6)]
-        ignore line: [Target: x86_64-apple-darwin24.1.0]
+        ignore line: [Compiler executable checksum: 26a1c39cb977350541d394547218e078]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_a503e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a503e.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../x86_64-unknown-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_a503e.dir/CMakeCXXCompilerABI.cpp.o /run/user/1000/app/com.jetbrains.CLion/cct2Hwey.s]
+        ignore line: [GNU assembler version 2.44 (x86_64-unknown-linux-gnu) using BFD version (GNU Binutils) 2.44]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-unknown-linux-gnu/14.2.0/:/usr/libexec/gcc/x86_64-unknown-linux-gnu/14.2.0/:/usr/libexec/gcc/x86_64-unknown-linux-gnu/:/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/:/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../x86_64-unknown-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../x86_64-unknown-linux-gnu/lib/:/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_a503e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a503e.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_a503e]
+        ignore line: [/app/extra/clion/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a503e.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/c++  -v -Wl -v CMakeFiles/cmTC_a503e.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_a503e]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-unknown-linux-gnu/14.2.0/lto-wrapper]
+        ignore line: [Target: x86_64-unknown-linux-gnu]
+        ignore line: [Configured with: ../configure --prefix=/usr --exec-prefix=/usr --bindir=/usr/bin --sbindir=/usr/bin --sysconfdir=/etc --datadir=/usr/share --includedir=/usr/include --libdir=/usr/lib --libexecdir=/usr/libexec --localstatedir=/var --sharedstatedir=/usr/com --mandir=/usr/share/man --infodir=/usr/share/info --enable-deterministic-archives --enable-shared --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu lt_cv_sys_lib_dlsearch_path_spec=/usr/lib/x86_64-linux-gnu --target=x86_64-unknown-linux-gnu --disable-multilib --enable-multiarch --disable-bootstrap --enable-languages=c c++ fortran objc obj-c++ --enable-default-pie --enable-default-ssp --with-isl --disable-libssp --enable-linker-build-id --disable-libstdcxx-filesystem-ts --enable-cet --with-system-zlib --with-tune=generic --with-arch_64=x86-64]
         ignore line: [Thread model: posix]
-        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 15.1.0 15.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_e6914 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_e6914.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
-          arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
-          arg [-demangle] ==> ignore
-          arg [-lto_library] ==> ignore, skip following value
-          arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
-          arg [-dynamic] ==> ignore
-          arg [-arch] ==> ignore
-          arg [x86_64] ==> ignore
-          arg [-platform_version] ==> ignore
-          arg [macos] ==> ignore
-          arg [15.1.0] ==> ignore
-          arg [15.2] ==> ignore
-          arg [-syslibroot] ==> ignore
-          arg [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk] ==> ignore
-          arg [-mllvm] ==> ignore
-          arg [-enable-linkonceodr-outlining] ==> ignore
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 14.2.0 (GCC) ]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-unknown-linux-gnu/14.2.0/:/usr/libexec/gcc/x86_64-unknown-linux-gnu/14.2.0/:/usr/libexec/gcc/x86_64-unknown-linux-gnu/:/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/:/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../x86_64-unknown-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../x86_64-unknown-linux-gnu/lib/:/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a503e' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a503e.']
+        link line: [ /usr/libexec/gcc/x86_64-unknown-linux-gnu/14.2.0/collect2 -plugin /usr/libexec/gcc/x86_64-unknown-linux-gnu/14.2.0/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-unknown-linux-gnu/14.2.0/lto-wrapper -plugin-opt=-fresolution=/run/user/1000/app/com.jetbrains.CLion/cchWDrnH.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_a503e /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/crtbeginS.o -L/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0 -L/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../x86_64-unknown-linux-gnu/lib -L/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../.. -v CMakeFiles/cmTC_a503e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/crtendS.o /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/libexec/gcc/x86_64-unknown-linux-gnu/14.2.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/libexec/gcc/x86_64-unknown-linux-gnu/14.2.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/libexec/gcc/x86_64-unknown-linux-gnu/14.2.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/run/user/1000/app/com.jetbrains.CLion/cchWDrnH.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_e6914] ==> ignore
-          arg [-search_paths_first] ==> ignore
-          arg [-headerpad_max_install_names] ==> ignore
+          arg [cmTC_a503e] ==> ignore
+          arg [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0] ==> dir [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0]
+          arg [-L/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../lib64]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+          arg [-L/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../x86_64-unknown-linux-gnu/lib] ==> dir [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../x86_64-unknown-linux-gnu/lib]
+          arg [-L/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../..] ==> dir [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../..]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_e6914.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
-          arg [-lc++] ==> lib [c++]
-          arg [-lSystem] ==> lib [System]
-          arg [/Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
-        linker tool for 'CXX': /Library/Developer/CommandLineTools/usr/bin/ld
-        Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib/swift]
-        Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks]
-        remove lib [System]
-        remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
-        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib]
-        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib/swift] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib/swift]
-        collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks]
-        implicit libs: [c++]
-        implicit objs: []
-        implicit dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib/swift]
-        implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks]
+          arg [CMakeFiles/cmTC_a503e.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [collect2 version 14.2.0]
+        ignore line: [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../x86_64-unknown-linux-gnu/bin/ld -plugin /usr/libexec/gcc/x86_64-unknown-linux-gnu/14.2.0/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-unknown-linux-gnu/14.2.0/lto-wrapper -plugin-opt=-fresolution=/run/user/1000/app/com.jetbrains.CLion/cchWDrnH.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_a503e /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/crtbeginS.o -L/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0 -L/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../x86_64-unknown-linux-gnu/lib -L/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../.. -v CMakeFiles/cmTC_a503e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/crtendS.o /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu/crtn.o]
+        linker tool for 'CXX': /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../x86_64-unknown-linux-gnu/bin/ld
+        collapse obj [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0] ==> [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0]
+        collapse library dir [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../lib64] ==> [/usr/lib64]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+        collapse library dir [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../x86_64-unknown-linux-gnu/lib] ==> [/usr/x86_64-unknown-linux-gnu/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../..] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/crtbeginS.o;/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0;/usr/lib/x86_64-linux-gnu;/usr/lib64;/lib/x86_64-linux-gnu;/lib64;/usr/x86_64-unknown-linux-gnu/lib;/usr/lib]
+        implicit fwks: []
       
       
   -
     kind: "message-v1"
     backtrace:
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
-      Running the CXX compiler's linker: "/Library/Developer/CommandLineTools/usr/bin/ld" "-v"
-      @(#)PROGRAM:ld PROJECT:ld-1115.7.3
-      BUILD 23:50:35 Dec  5 2024
-      configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
-      will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
-      LTO support using: LLVM version 16.0.0 (static support for 29, runtime is 29)
-      TAPI support using: Apple TAPI version 16.0.0 (tapi-1600.0.11.9)
+      Running the CXX compiler's linker: "/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../../x86_64-unknown-linux-gnu/bin/ld" "-v"
+      GNU ld (GNU Binutils) 2.44
 ...

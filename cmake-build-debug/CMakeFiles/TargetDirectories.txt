@@ -1,3 +1,3 @@
-/Users/niccollingro/Desktop/Universitaet des Saarlandes/WiSe 24:25/ITG/ITG-Galaxiebewegung/cmake-build-debug/CMakeFiles/ITG_Galaxiebewegung.dir
-/Users/niccollingro/Desktop/Universitaet des Saarlandes/WiSe 24:25/ITG/ITG-Galaxiebewegung/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/niccollingro/Desktop/Universitaet des Saarlandes/WiSe 24:25/ITG/ITG-Galaxiebewegung/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/niccollingro/Documents/ITG 1/ITG-Galaxiebewegung/cmake-build-debug/CMakeFiles/ITG_Galaxiebewegung.dir
+/home/niccollingro/Documents/ITG 1/ITG-Galaxiebewegung/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/niccollingro/Documents/ITG 1/ITG-Galaxiebewegung/cmake-build-debug/CMakeFiles/rebuild_cache.dir

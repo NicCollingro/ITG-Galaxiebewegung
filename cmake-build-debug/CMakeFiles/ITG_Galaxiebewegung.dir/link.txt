@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/ITG_Galaxiebewegung.dir/Code/SimulationCreateStartValues.cpp.o CMakeFiles/ITG_Galaxiebewegung.dir/Code/SimulationBruteForce.cpp.o CMakeFiles/ITG_Galaxiebewegung.dir/Code/main.cpp.o -o ITG_Galaxiebewegung
