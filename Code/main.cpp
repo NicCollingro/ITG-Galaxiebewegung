@@ -61,6 +61,9 @@ void savePositions(int k) {
     if (!file){
         std::cout << "Error creating file" << std::endl;
     }
+    for (int i = 0; i < 100000; i++) {
+        file << Stars[i].radius << "\t" <<Stars[i].degree << "\t" << Stars[i].velocityRadius << "\t" << Stars[i].velocityDegree << "\t" << Stars[i].mass <<"\n";
+    }
 }
 
 int SimulationBruteForce(int numberOfTimesteps, float timePerStep){
