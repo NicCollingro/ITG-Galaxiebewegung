@@ -1,28 +1,29 @@
 #include <iostream>
 #include <fstream>
+#include <iomanip>
+#include <stdio.h>
 #include <math.h>
-#include <ctime>
-#include <vector>
 #include <string>
 #include <sstream>
 #include <thread>
 #include <valarray>
 #include <omp.h>
+#include <chrono>
 using namespace std;
 
 struct Coordinate {
     float mass;
     float radius;
     float degree;
-    float velocityRadius;
-    float velocityDegree;
+    long double velocityRadius;
+    long double velocityDegree;
     float forceRadius = 0;
     float forceDegree = 0;
 };
 
 float gravitationalConstant = 6.67430e-11;
 
-Coordinate Stars[100000]; // Richtige Deklaration anstelle von #define
+Coordinate Stars[100000];
 
 int importData() {
     ifstream file("/home/niccollingro/Documents/ITG 1/ITG-Galaxiebewegung/Data/Startwerte.txt");
@@ -36,11 +37,23 @@ int importData() {
 
     while (getline(file, line) && count < 100000) {
         stringstream ss(line);
-        if (ss >> Stars[count].mass >> Stars[count].radius >> Stars[count].degree >> Stars[count].velocityRadius >> Stars[count].velocityDegree) {
-            ++count;
-        } else {
-            cerr << "Warnung: Zeile mit falschem Format übersprungen." << endl;
-        }
+        //std:cout << "Gelesene Zeile: " << line << std::endl;
+
+        std::string radius_str, degree_str, velocityRadius_str, velocityDegree_str, mass_str;
+
+        ss >> radius_str >> degree_str >> velocityRadius_str >> velocityDegree_str >> mass_str;
+
+        // Konvertiere manuell mit std::stod
+        Stars[count].radius = std::stod(radius_str);
+        Stars[count].degree = std::stod(degree_str);
+        Stars[count].velocityRadius = std::stod(velocityRadius_str);
+        Stars[count].velocityDegree = std::stod(velocityDegree_str);
+        Stars[count].mass = std::stod(mass_str);
+
+        std::cout << "abgespeicherte werte: " << Stars[count].radius << " " <<Stars[count].degree << " " << Stars[count].velocityRadius << Stars[count].velocityDegree << Stars[count].mass << std::endl;
+
+        ++count;
+
     }
 
     file.close();
@@ -51,7 +64,8 @@ int importData() {
 void fromForceCalcPos(float timePerStep, int i) {
     Stars[i].velocityRadius += (Stars[i].forceRadius/Stars[i].mass)*timePerStep;
     Stars[i].velocityDegree += (Stars[i].forceDegree/Stars[i].mass)*timePerStep;
-    Stars[i].radius += Stars[i].velocityRadius * timePerStep + Stars[i].velocityDegree * timePerStep;
+    Stars[i].radius += Stars[i].velocityRadius * timePerStep;
+    Stars[i].degree += Stars[i].velocityDegree * timePerStep;
 }
 
 void savePositions(int k) {
@@ -69,21 +83,24 @@ void savePositions(int k) {
 int SimulationBruteForce(int numberOfTimesteps, float timePerStep){
     float massConstant = 1.989e30;
     float lightYearsInMeter = 9.461e15;
-    float timeConversionFactor = 3.156e7;
     importData();
 
 
-
-    #pragma omp parallel for schedule(dynamic)
     for (int k=0; k<numberOfTimesteps; ++k) {
+        //#pragma omp parallel for schedule(dynamic)
         for (int i = 0; i < 100000; i++) {
             for (int j = 0; j < 100000; j++) {
-                if (i == j) continue;
-                float totalForce = gravitationalConstant * (Stars[i].mass * Stars[j].mass) / pow(sqrt(pow(Stars[i].radius,2)+pow(Stars[j].radius,2)-2*Stars[i].radius*Stars[j].radius*cos(sqrt(pow(Stars[i].degree - Stars[j].degree, 2)))),2);
-                Stars[i].forceRadius += totalForce * cos(sqrt(pow(Stars[i].degree - Stars[j].degree, 2)));
-                Stars[i].forceDegree += totalForce * sin(sqrt(pow(Stars[i].degree - Stars[j].degree, 2)));
+                if (i == j) j = j+1;
+
+                double conversionConstant = gravitationalConstant * massConstant / sqrt(pow(lightYearsInMeter,4)-2*pow(lightYearsInMeter,2));
+                int totalForce = Stars[i].mass * Stars[j].mass * conversionConstant/ (pow(Stars[i].radius,2)+pow(Stars[j].radius,2)-2*Stars[i].radius*Stars[j].radius*cos(Stars[i].degree - Stars[j].degree));
+                printf("%e %e\n",conversionConstant, totalForce);
+                //Stars[i].forceRadius += totalForce * cos(abs(Stars[i].degree - Stars[j].degree));
+                //Stars[i].forceDegree += totalForce * sin(abs(Stars[i].degree - Stars[j].degree));
+
             }
-            fromForceCalcPos(timePerStep, i);
+            //fromForceCalcPos(timePerStep, i);
+
         }
         savePositions(k);
     }
@@ -92,7 +109,7 @@ int SimulationBruteForce(int numberOfTimesteps, float timePerStep){
 }
 
 int main() {
-    int numberOfTimesteps = 100;
+    int numberOfTimesteps = 1;
     float timePerStep = 3.15576e11;
     SimulationBruteForce(numberOfTimesteps, timePerStep);
     return 0;

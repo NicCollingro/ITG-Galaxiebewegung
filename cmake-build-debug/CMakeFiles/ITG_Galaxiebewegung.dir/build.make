@@ -83,24 +83,10 @@ CMakeFiles/ITG_Galaxiebewegung.dir/Code/SimulationCreateStartValues.cpp.s: cmake
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ITG_Galaxiebewegung.dir/Code/SimulationCreateStartValues.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/niccollingro/Documents/ITG 1/ITG-Galaxiebewegung/Code/SimulationCreateStartValues.cpp" -o CMakeFiles/ITG_Galaxiebewegung.dir/Code/SimulationCreateStartValues.cpp.s
 
-CMakeFiles/ITG_Galaxiebewegung.dir/Code/SimulationBruteForce.cpp.o: CMakeFiles/ITG_Galaxiebewegung.dir/flags.make
-CMakeFiles/ITG_Galaxiebewegung.dir/Code/SimulationBruteForce.cpp.o: /home/niccollingro/Documents/ITG\ 1/ITG-Galaxiebewegung/Code/SimulationBruteForce.cpp
-CMakeFiles/ITG_Galaxiebewegung.dir/Code/SimulationBruteForce.cpp.o: CMakeFiles/ITG_Galaxiebewegung.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/niccollingro/Documents/ITG 1/ITG-Galaxiebewegung/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ITG_Galaxiebewegung.dir/Code/SimulationBruteForce.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ITG_Galaxiebewegung.dir/Code/SimulationBruteForce.cpp.o -MF CMakeFiles/ITG_Galaxiebewegung.dir/Code/SimulationBruteForce.cpp.o.d -o CMakeFiles/ITG_Galaxiebewegung.dir/Code/SimulationBruteForce.cpp.o -c "/home/niccollingro/Documents/ITG 1/ITG-Galaxiebewegung/Code/SimulationBruteForce.cpp"
-
-CMakeFiles/ITG_Galaxiebewegung.dir/Code/SimulationBruteForce.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ITG_Galaxiebewegung.dir/Code/SimulationBruteForce.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/niccollingro/Documents/ITG 1/ITG-Galaxiebewegung/Code/SimulationBruteForce.cpp" > CMakeFiles/ITG_Galaxiebewegung.dir/Code/SimulationBruteForce.cpp.i
-
-CMakeFiles/ITG_Galaxiebewegung.dir/Code/SimulationBruteForce.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ITG_Galaxiebewegung.dir/Code/SimulationBruteForce.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/niccollingro/Documents/ITG 1/ITG-Galaxiebewegung/Code/SimulationBruteForce.cpp" -o CMakeFiles/ITG_Galaxiebewegung.dir/Code/SimulationBruteForce.cpp.s
-
 CMakeFiles/ITG_Galaxiebewegung.dir/Code/main.cpp.o: CMakeFiles/ITG_Galaxiebewegung.dir/flags.make
 CMakeFiles/ITG_Galaxiebewegung.dir/Code/main.cpp.o: /home/niccollingro/Documents/ITG\ 1/ITG-Galaxiebewegung/Code/main.cpp
 CMakeFiles/ITG_Galaxiebewegung.dir/Code/main.cpp.o: CMakeFiles/ITG_Galaxiebewegung.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/niccollingro/Documents/ITG 1/ITG-Galaxiebewegung/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ITG_Galaxiebewegung.dir/Code/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/niccollingro/Documents/ITG 1/ITG-Galaxiebewegung/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ITG_Galaxiebewegung.dir/Code/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ITG_Galaxiebewegung.dir/Code/main.cpp.o -MF CMakeFiles/ITG_Galaxiebewegung.dir/Code/main.cpp.o.d -o CMakeFiles/ITG_Galaxiebewegung.dir/Code/main.cpp.o -c "/home/niccollingro/Documents/ITG 1/ITG-Galaxiebewegung/Code/main.cpp"
 
 CMakeFiles/ITG_Galaxiebewegung.dir/Code/main.cpp.i: cmake_force
@@ -114,18 +100,16 @@ CMakeFiles/ITG_Galaxiebewegung.dir/Code/main.cpp.s: cmake_force
 # Object files for target ITG_Galaxiebewegung
 ITG_Galaxiebewegung_OBJECTS = \
 "CMakeFiles/ITG_Galaxiebewegung.dir/Code/SimulationCreateStartValues.cpp.o" \
-"CMakeFiles/ITG_Galaxiebewegung.dir/Code/SimulationBruteForce.cpp.o" \
 "CMakeFiles/ITG_Galaxiebewegung.dir/Code/main.cpp.o"
 
 # External object files for target ITG_Galaxiebewegung
 ITG_Galaxiebewegung_EXTERNAL_OBJECTS =
 
 ITG_Galaxiebewegung: CMakeFiles/ITG_Galaxiebewegung.dir/Code/SimulationCreateStartValues.cpp.o
-ITG_Galaxiebewegung: CMakeFiles/ITG_Galaxiebewegung.dir/Code/SimulationBruteForce.cpp.o
 ITG_Galaxiebewegung: CMakeFiles/ITG_Galaxiebewegung.dir/Code/main.cpp.o
 ITG_Galaxiebewegung: CMakeFiles/ITG_Galaxiebewegung.dir/build.make
 ITG_Galaxiebewegung: CMakeFiles/ITG_Galaxiebewegung.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/niccollingro/Documents/ITG 1/ITG-Galaxiebewegung/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ITG_Galaxiebewegung"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/niccollingro/Documents/ITG 1/ITG-Galaxiebewegung/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ITG_Galaxiebewegung"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ITG_Galaxiebewegung.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

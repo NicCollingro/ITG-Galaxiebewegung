@@ -129,30 +129,6 @@ ITG_Galaxiebewegung/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ITG_Galaxiebewegung.dir/build.make CMakeFiles/ITG_Galaxiebewegung.dir/build
 .PHONY : ITG_Galaxiebewegung/fast
 
-Code/SimulationBruteForce.o: Code/SimulationBruteForce.cpp.o
-.PHONY : Code/SimulationBruteForce.o
-
-# target to build an object file
-Code/SimulationBruteForce.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ITG_Galaxiebewegung.dir/build.make CMakeFiles/ITG_Galaxiebewegung.dir/Code/SimulationBruteForce.cpp.o
-.PHONY : Code/SimulationBruteForce.cpp.o
-
-Code/SimulationBruteForce.i: Code/SimulationBruteForce.cpp.i
-.PHONY : Code/SimulationBruteForce.i
-
-# target to preprocess a source file
-Code/SimulationBruteForce.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ITG_Galaxiebewegung.dir/build.make CMakeFiles/ITG_Galaxiebewegung.dir/Code/SimulationBruteForce.cpp.i
-.PHONY : Code/SimulationBruteForce.cpp.i
-
-Code/SimulationBruteForce.s: Code/SimulationBruteForce.cpp.s
-.PHONY : Code/SimulationBruteForce.s
-
-# target to generate assembly for a file
-Code/SimulationBruteForce.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ITG_Galaxiebewegung.dir/build.make CMakeFiles/ITG_Galaxiebewegung.dir/Code/SimulationBruteForce.cpp.s
-.PHONY : Code/SimulationBruteForce.cpp.s
-
 Code/SimulationCreateStartValues.o: Code/SimulationCreateStartValues.cpp.o
 .PHONY : Code/SimulationCreateStartValues.o
 
@@ -210,9 +186,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ITG_Galaxiebewegung"
-	@echo "... Code/SimulationBruteForce.o"
-	@echo "... Code/SimulationBruteForce.i"
-	@echo "... Code/SimulationBruteForce.s"
 	@echo "... Code/SimulationCreateStartValues.o"
 	@echo "... Code/SimulationCreateStartValues.i"
 	@echo "... Code/SimulationCreateStartValues.s"

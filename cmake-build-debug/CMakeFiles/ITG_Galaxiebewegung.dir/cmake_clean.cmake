@@ -1,6 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ITG_Galaxiebewegung.dir/Code/SimulationBruteForce.cpp.o"
-  "CMakeFiles/ITG_Galaxiebewegung.dir/Code/SimulationBruteForce.cpp.o.d"
   "CMakeFiles/ITG_Galaxiebewegung.dir/Code/SimulationCreateStartValues.cpp.o"
   "CMakeFiles/ITG_Galaxiebewegung.dir/Code/SimulationCreateStartValues.cpp.o.d"
   "CMakeFiles/ITG_Galaxiebewegung.dir/Code/main.cpp.o"
