@@ -34,6 +34,7 @@ ax.spines['left'].set_visible(False)
 ax.set_xticklabels([])  # Entfernt x-Achsen-Beschriftungen
 ax.set_yticklabels([])
 
+
 plt.tight_layout()
 #plt.savefig("/Users/niccollingro/Desktop/Universitaet des Saarlandes/WiSe 24:25/ITG/ITG-Galaxiebewegung/Data/Startanordnung.pdf", format="pdf")
 plt.show()
