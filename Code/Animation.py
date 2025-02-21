@@ -1,0 +1,39 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+
+
+for i in range(186):
+    coordinateRadius = []
+    coordinateDegree = []
+    coordinateX = []
+    coordinateY = []
+    plt.close('all')
+    file="/home/niccollingro/Documents/ITG 1/ITG-Galaxiebewegung/Data/SimData/BruteForce/Positionen{}.txt".format(i)
+    with open(file, "r") as f:
+        for line in f:
+            values = line.strip().split("\t")  # Zeile aufsplitten (Tab als Trennzeichen)
+            coordinateRadius.append(float(values[0]))
+            coordinateDegree.append(float(values[1]))
+
+    coordinateX = coordinateRadius * np.sin(coordinateDegree)
+    coordinateY = coordinateRadius * np.cos(coordinateDegree)
+
+    fig, ax = plt.subplots(figsize=(40, 40), dpi=100)
+
+    fig.patch.set_facecolor('black')
+    ax.set_facecolor('black')
+
+    ax.scatter(coordinateX, coordinateY, color='white', s=0.1)
+
+    ax.set_xticks([])  # Entfernt x-Achsen-Ticks
+    ax.set_yticks([])  # Entfernt y-Achsen-Ticks
+    ax.spines['top'].set_visible(False)
+    ax.spines['right'].set_visible(False)
+    ax.spines['bottom'].set_visible(False)
+    ax.spines['left'].set_visible(False)
+    ax.set_xticklabels([])  # Entfernt x-Achsen-Beschriftungen
+    ax.set_yticklabels([])
+
+    plt.tight_layout()
+    plt.savefig("/home/niccollingro/Documents/ITG 1/ITG-Galaxiebewegung/Data/SimData/Output files/Pic{}.png".format(i), format="png")

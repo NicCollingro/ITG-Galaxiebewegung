@@ -2,10 +2,10 @@ delete(gcp('nocreate'));
 cluster = parcluster('local');
 
 % Ändern der Anzahl der Worker auf 15
-cluster.NumWorkers = 14;
+cluster.NumWorkers = 8;
 
 % Starten des parallelen Pools mit 15 Arbeitern
-parpool(cluster, 14);
+parpool(cluster, 8);
 
 Stars = load('/home/niccollingro/Documents/ITG 1/ITG-Galaxiebewegung/Data/Startwerte.txt');
 %Stars[0] = radius
@@ -34,12 +34,12 @@ conversionFactor = gravitationalConstant .* massConstant ./ sqrt(lightYearsInMet
 
 superFastCalculator = @(i, j) mass(i) .* mass(j) .* conversionFactor ./ radius(i).^2 + radius(j).^2 - 2 .* radius(i) .* radius(j) .* cos(degree(i) - degree(j));
 
+%Format
+
+format longE
 
 %Code
-length(radius)
-
-radius
-
+disp(radius)
 
 parfor i = 1:length(radius)
     radialForceTemp = 0;

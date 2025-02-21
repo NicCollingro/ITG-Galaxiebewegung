@@ -13,12 +13,12 @@ using namespace std;
 
 struct Coordinate {
     float mass;
-    float radius;
-    float degree;
-    long double velocityRadius;
-    long double velocityDegree;
-    float forceRadius = 0;
-    float forceDegree = 0;
+    double radius;
+    double degree;
+    double velocityRadius;
+    double velocityDegree;
+    double forceRadius = 0;
+    double forceDegree = 0;
 };
 
 float gravitationalConstant = 6.67430e-11;
@@ -85,32 +85,34 @@ int SimulationBruteForce(int numberOfTimesteps, float timePerStep){
     float lightYearsInMeter = 9.461e15;
     importData();
 
+    double conversionConstant = gravitationalConstant * massConstant / sqrt(pow(lightYearsInMeter,4)-2*pow(lightYearsInMeter,2));
 
     for (int k=0; k<numberOfTimesteps; ++k) {
-        //#pragma omp parallel for schedule(dynamic)
+        #pragma omp parallel for schedule(dynamic)
         for (int i = 0; i < 100000; i++) {
             for (int j = 0; j < 100000; j++) {
                 if (i == j) j = j+1;
-
-                double conversionConstant = gravitationalConstant * massConstant / sqrt(pow(lightYearsInMeter,4)-2*pow(lightYearsInMeter,2));
-                int totalForce = Stars[i].mass * Stars[j].mass * conversionConstant/ (pow(Stars[i].radius,2)+pow(Stars[j].radius,2)-2*Stars[i].radius*Stars[j].radius*cos(Stars[i].degree - Stars[j].degree));
-                printf("%e %e\n",conversionConstant, totalForce);
-                //Stars[i].forceRadius += totalForce * cos(abs(Stars[i].degree - Stars[j].degree));
-                //Stars[i].forceDegree += totalForce * sin(abs(Stars[i].degree - Stars[j].degree));
+                double totalForce = Stars[i].mass * Stars[j].mass * conversionConstant/ (pow(Stars[i].radius,2)+pow(Stars[j].radius,2)-2*Stars[i].radius*Stars[j].radius*cos(Stars[i].degree - Stars[j].degree));
+                //double testVal = pow(Stars[i].radius,2)+pow(Stars[j].radius,2)-2*Stars[i].radius*Stars[j].radius*cos(Stars[i].degree - Stars[j].degree);
+                //printf("%e %e \n",conversionConstant, totalForce); //, testVal);
+                Stars[i].forceRadius += totalForce * cos(Stars[i].degree - Stars[j].degree);
+                Stars[i].forceDegree += totalForce * sin(Stars[i].degree - Stars[j].degree);
+                //printf("%e %e \n",Stars[i].forceRadius, Stars[i].forceDegree); //, testVal);
 
             }
-            //fromForceCalcPos(timePerStep, i);
+            fromForceCalcPos(timePerStep, i);
 
         }
         savePositions(k);
+        printf("%i \n", k);
     }
 
     return 0;
 }
 
 int main() {
-    int numberOfTimesteps = 1;
-    float timePerStep = 3.15576e11;
+    int numberOfTimesteps = 1000;
+    float timePerStep = 3.15576e12;
     SimulationBruteForce(numberOfTimesteps, timePerStep);
     return 0;
 }
